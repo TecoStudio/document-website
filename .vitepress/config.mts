@@ -15,7 +15,7 @@ export default defineConfig({
         text: '插件文档',
         items: [
           { text: 'EssentialsX', link: '/EssentialsX/'},
-          { text: 'LevelledMobs', link: '/LevelledMobs/'},
+          { text: 'LevelledMobs-v3', link: '/LevelledMobs-v3/'},
           { text: 'OtherDrops', link: '/OtherDrops/'},
         ],
       },
@@ -70,42 +70,42 @@ export default defineConfig({
           ]
       }],
 
-      '/LevelledMobs/': [{
-        text: 'LevelledMobs 文档',
+      '/LevelledMobs-v3/': [{
+        text: 'LevelledMobs-v3 文档',
         items: [
-          { text: '📜 欢迎来到生物等级 Wiki', link: '/LevelledMobs/' },
-          { text: '🚥 兼容性', link: '/LevelledMobs/Compatibilities' },
-          { text: '🔌 安装', link: '/LevelledMobs/Installation' },
-          { text: '👩‍⚖️ 权限', link: '/LevelledMobs/Permissions' },
-          { text: '🙋‍♂️ 常见问题解答', link: '/LevelledMobs/Frequently-Asked-Questions' },
+          { text: '📜 欢迎来到生物等级 Wiki', link: '/LevelledMobs-v3/' },
+          { text: '🚥 兼容性', link: '/LevelledMobs-v3/Compatibilities' },
+          { text: '🔌 安装', link: '/LevelledMobs-v3/Installation' },
+          { text: '👩‍⚖️ 权限', link: '/LevelledMobs-v3/Permissions' },
+          { text: '🙋‍♂️ 常见问题解答', link: '/LevelledMobs-v3/Frequently-Asked-Questions' },
           {
             text: '📖 配置',
             collapsed: false,
             items: [
-              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs/Configs/Settings.yml.md' },
-              { text: '🔧 调试-杂项', link: '/LevelledMobs/Configs/Debug-Misc' },
-              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs/Configs/Rules.yml.md' },
-              { text: '📃 条件', link: '/LevelledMobs/Configs/Conditions' },
-              { text: '📃 策略', link: '/LevelledMobs/Configs/Strategies' },
-              { text: '📃 应用设置', link: '/LevelledMobs/Configs/Apply-Settings' },
-              { text: '📃 了解默认的 `rules.yml` 配置文件', link: '/LevelledMobs/Configs/Understanding-the-Default-Config' },
-              { text: '📃 示例自定义规则', link: '/LevelledMobs/Configs/Sample-Custom-Rules' },
-              { text: '⚔ 自定义掉落 (customdrops.yml) 设置', link: '/LevelledMobs/Configs/CustomDrops' },
-              { text: '⚔ 示例自定义掉落物', link: '/LevelledMobs/Configs/Sample-Custom-Drops' },
-              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs/Configs/Messages.yml.md' },
-              { text: '🎌 官方配置翻译', link: '/LevelledMobs/Configs/Official-Translations' },
-              { text: '🎌 非官方配置翻译', link: '/LevelledMobs/Configs/Unofficial-Translations' },
+              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs-v3/Configs/Settings.yml.md' },
+              { text: '🔧 调试-杂项', link: '/LevelledMobs-v3/Configs/Debug-Misc' },
+              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs-v3/Configs/Rules.yml.md' },
+              { text: '📃 条件', link: '/LevelledMobs-v3/Configs/Conditions' },
+              { text: '📃 策略', link: '/LevelledMobs-v3/Configs/Strategies' },
+              { text: '📃 应用设置', link: '/LevelledMobs-v3/Configs/Apply-Settings' },
+              { text: '📃 了解默认的 `rules.yml` 配置文件', link: '/LevelledMobs-v3/Configs/Understanding-the-Default-Config' },
+              { text: '📃 示例自定义规则', link: '/LevelledMobs-v3/Configs/Sample-Custom-Rules' },
+              { text: '⚔ 自定义掉落 (customdrops.yml) 设置', link: '/LevelledMobs-v3/Configs/CustomDrops' },
+              { text: '⚔ 示例自定义掉落物', link: '/LevelledMobs-v3/Configs/Sample-Custom-Drops' },
+              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs-v3/Configs/Messages.yml.md' },
+              { text: '🎌 官方配置翻译', link: '/LevelledMobs-v3/Configs/Official-Translations' },
+              { text: '🎌 非官方配置翻译', link: '/LevelledMobs-v3/Configs/Unofficial-Translations' },
             ]
           },
-          { text: '👀 教程视频', link: '/LevelledMobs/How-to-Videos' },
-          { text: '🔖 占位符', link: '/LevelledMobs/Placeholders' },
+          { text: '👀 教程视频', link: '/LevelledMobs-v3/How-to-Videos' },
+          { text: '🔖 占位符', link: '/LevelledMobs-v3/Placeholders' },
           {
             text: '👩‍💻 对于开发人员',
             collapsed: false,
             items: [
-              { text: '👨‍💻 用 LM 开发', link: '/LevelledMobs/Developers/Developing-with-LevelledMobs' },
-              { text: '👩‍🏭 用 LM 编译', link: '/LevelledMobs/Developers/Compiling-LevelledMobs' },
-              { text: '🔀 拉取请求', link: '/LevelledMobs/Developers/Pull-Requests' },
+              { text: '👨‍💻 用 LM 开发', link: '/LevelledMobs-v3/Developers/Developing-with-LevelledMobs-v3' },
+              { text: '👩‍🏭 用 LM 编译', link: '/LevelledMobs-v3/Developers/Compiling-LevelledMobs-v3' },
+              { text: '🔀 拉取请求', link: '/LevelledMobs-v3/Developers/Pull-Requests' },
               { text: '📰 Java 文档', link: 'https://arcaneplugins.github.io/LevelledMobs/' },
             ]
           },
@@ -113,10 +113,10 @@ export default defineConfig({
             text: '📃 其他信息',
             collapsed: false,
             items: [
-              { text: '💙 来源', link: '/LevelledMobs/Other/Credits' },
-              { text: '💸 捐助', link: '/LevelledMobs/Other/Donations' },
-              { text: '🔗 默认配置文件', link: '/LevelledMobs/Other/Links-to-default-config-files' },
-              { text: '📊 bStats 指标', link: '/LevelledMobs/Other/bStats-Metrics-Notice' },
+              { text: '💙 来源', link: '/LevelledMobs-v3/Other/Credits' },
+              { text: '💸 捐助', link: '/LevelledMobs-v3/Other/Donations' },
+              { text: '🔗 默认配置文件', link: '/LevelledMobs-v3/Other/Links-to-default-config-files' },
+              { text: '📊 bStats 指标', link: '/LevelledMobs-v3/Other/bStats-Metrics-Notice' },
             ]
           }
         ],
