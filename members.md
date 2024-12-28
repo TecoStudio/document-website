@@ -21,7 +21,7 @@ const ops = [
     title: '技术组组长',
     links: [
       { icon: 'github', link: 'https://github.com/JianyueLab' },
-      { icon: linkIcon, link: 'https://jianyuelab.net' }
+      { icon: linkIcon, link: 'https://jhl.idv.hk' }
     ]
   },
   {
@@ -68,7 +68,7 @@ const translator = [
     title: '技术组组长',
     links: [
       { icon: 'github', link: 'https://github.com/JianyueLab' },
-      { icon: linkIcon, link: 'https://jianyuelab.net' }
+      { icon: linkIcon, link: 'https://jhl.idv.hk' }
     ]
   },
   {
