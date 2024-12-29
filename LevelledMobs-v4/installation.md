@@ -1,4 +1,4 @@
-## 🤖 Installation
+# 🤖 Installation
 
 Note: The difference between being **Compatible** and providing **Support**:
 
@@ -6,7 +6,7 @@ If an option is **Supported**, that simply means that our staff will be willing 
 
 If an option is **Compatible**, that simply relays to you the degree to which you should expect our plugin to function while on your server without issues or errors. We cannot account for every situation, but if an option is listed having a high degree of **Compatibility**, then you should expect that plugin to function as intended on your server. If you are experiencing an issue with a listed compatible option, we recommend first investigating if other plugins may be causing an issue. You can do this by running your testing server with just LevelledMobs and see if the issue is reproducible. If it is not, then return more plugins to the server until you have discovered the incompatible plugin. If this does not resolve the issue, then you might suggest submitting the question to the [ArcanePlugins Support Discord](https://discord.gg/arcaneplugins-752310043214479462).
 
-### Are you running a compatible server software?
+## Are you running a compatible server software?
 
 | Server                                                                                       | Compatibility | Support | Notes                                                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------|---------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ Sometimes, there are updates from one version to the next (IE 1.20.1 -> 1.20.2) 
 
 In general, we strive to commit to a two-version layer of compatibility and support. That means whatever version of minecraft is currently available, plus the previous two version. For example, for **Minecraft 1.20** support, we intend to also provide support for the latest release versions of **Minecraft 1.18-1.19** as well. This cannot always be the case, and sometimes there is compatibility beyond the two-versions even if support isn't provided. Users are always notified if there is a change worth noting with regards to support or compatibility changes.
 
-### Are you running the correct Jaa version?
+## Are you running the correct Jaa version?
 
 We currently require users to be running **Java 17** or higher. As of **Minecraft 1.16**, servers have been required to have at least **Java 17**, so this should not be an issue. Our support staff will not assist in managing your Java installation, as there are many free tutorials available on the internet.
 
@@ -46,7 +46,7 @@ As of [Minecraft Snapshot 24w14a [pre-1.20.5]](https://www.minecraft.net/en-us/a
 
 Our staff recommend using [OpenJDK](https://openjdk.org/). It provides an implementation of the Java Standard software for your Java Standard software for your Java installation requirements. It is both *Free* and *open-source*, and the code is derived directly from the GPL-licensed binaries which are also *open-source*.
 
-### Did you install any plugins with known issues?
+## Did you install any plugins with known issues?
 
 We have discovered over several years that there are certain specific and non-specific plugins which either fail entirely, cause inconsistencies with LevelledMobs, break native features we use or cause unintended effects. Some of these issues contain solutions, some do not. It is not for us to resolve every potential issue with every plugin on the internet; even though we make the effort all the time.
 
@@ -57,11 +57,11 @@ We have discovered over several years that there are certain specific and non-sp
 | * Holograms                                                                                             | Medium         | Plugins which send false holograms centered on mobs or within their custom-name field will interfere with our own nametag features. We utilize false packets to send nametag information directly to the players' client. Anything which interferes with this process may affect the nametags of entities.                                                                                                   |
 | * Stackers                                                                                              | Medium         | UPDATE: The plugin [RoseStacker](https://www.spigotmc.org/resources/rosestacker.82729/) has included a specific compatability with our plugin as of `RoseStacker 1.5.22`, allowing our plugin to work with their stacker system. <br/> <br/> Most plugins which stack mob entities together will simply not function with LevelledMobs typically due to inconsistent spawn reasons or entity identification. |
 
-### Did you install LevelledMobs in the proper location?
+## Did you install LevelledMobs in the proper location?
 
 You might think it would be obvious, if you made it this far, that you should know where you install plugins you download for your Minecraft server. To be very clear: the LevelledMobs `.jar` file needs to be placed inside the `/plugins/` folder of your Minecraft server's root location. If your server installation doesn't have a `/plugins/` folder, then it has either not been installed properly or you are not running a compatible or supported server software. Please diagnose this issue yourself.
 
-### [Optional] Did you install any supported plugins?
+## [Optional] Did you install any supported plugins?
 
 We provide multiple optional features and functionalities through integrations with several different plugins. There are also some extended-feature plugins created by our own ArcanePlugins Developers which provide expanded abilities within CustomDrops and beyond. If you want to use these optional features, you need to install the latest version of the respective plugin.
 
@@ -76,7 +76,7 @@ We provide multiple optional features and functionalities through integrations w
 |                             [NBT-API](https://www.spigotmc.org/resources/nbt-api.7939/)                              | When using the option `apply-settings:` `nbt-data:` to apply NBT data directly to mobs at the time of levelling.                                                                                                                                                                                                         |
 |                               [WorldGuard](https://dev.bukkit.org/projects/worldguard)                               | When using the option `conditions:` `worldguard-regions` to condition against the WorldGuard region where the entity existed at the time of levelling.                                                                                                                                                                   |
 
-### [Optional] Did you install any integrated plugins?
+## [Optional] Did you install any integrated plugins?
 
 These are plugins which we have written a special condition check for, whether **Internal hard-coded support** for more complicated plugins which require extra effort on our part internally, or **external hand-crafted support** through the new LevelledMobs4 `externalplugins.yml` file, which allows you to write your own 3rd party plugin support condition checks based on commonly used data storage and searching features.
 
@@ -96,4 +96,4 @@ These are plugins which we have written a special condition check for, whether *
 *Premium only
 **Premium and Free Option available
 
-### Everything good so far? Proceed to Errors and Running LM!
+## Everything good so far? Proceed to Errors and Running LM!

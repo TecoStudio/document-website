@@ -1,4 +1,4 @@
-## 📦 Moving from LM3 to LM4
+# 📦 Moving from LM3 to LM4
 
 **We highly recommend, for every release of LevelledMobs (and any other plugin for that matter) that you first test this plugin on a testing server before applying to any live server.**
 
