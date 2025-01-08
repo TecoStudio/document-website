@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 
 export default defineConfig({
   title: "Teco文档",
@@ -191,5 +192,11 @@ export default defineConfig({
         timeStyle: 'medium'
       },
     },
+  },
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
   }
 })
